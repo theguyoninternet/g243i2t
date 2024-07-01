@@ -6,19 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cápsula do Tempo</title>
     <link rel="stylesheet" href="./style/login.css">
-    <script src="./script/script.js"></script>
+    <script src="./script/script.js" defer></script>
 </head>
 <body>
     <section class="pagina-login">
         <div class="login">
             <form action="" class="form-login">
+
+            <div class="campo-input">
+                <input type="text" name="usuario" id="usuario">
                 <label for="usuario">Usuário</label>
-                <input type="text" name="usuario" id="usuarioID">
+            </div>
 
+            <div class="campo-input">
+                <input type="password" name="senha" id="senha">
                 <label for="senha" >Senha</label>
-                <input type="password" name="senha" id="senhaID">
+            </div>
 
-                <button type="submit" id="loginID">Validar</button>
+
+                <button type="submit" id="btnLogin"     >Validar</button>
                 <a href="esqueci.html">Esqueci a Senha</a>
             </form>
         </div>

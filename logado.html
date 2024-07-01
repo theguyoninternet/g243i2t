@@ -9,6 +9,9 @@
 <body>
     logado
     <span id="usuario"></span>
-    <script>document.querySelector("#usuario").innerHTML = localStorage.getItem("usuario")</script>
+    <script>    
+       document.querySelector("#usuario").innerHTML = localStorage.getItem("usuario");
+       localStorage.clear();        
+   </script>
 </body>
 </html>
