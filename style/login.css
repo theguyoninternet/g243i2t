@@ -21,14 +21,22 @@
     justify-content: center;
     border-radius: 25px;
 }
-.form-login input {
-    width: 80%;
-}
+ .form-login input {    width: 80%;}
+
 .form-login button {
     margin-top: 25px;
     width: 80%;
-    padding: 5px;
+    padding: 8px;
+    border-radius: 5px; 
+    border: none;
+    background-color: var(--corbtnSistema);
 }
+
+.form-login button:hover {
+    background-color: var(--corbtnSistemaHover);
+    color: var(--corFonte);;
+}
+
 .form-login label {
     display: flex;
 }
@@ -49,7 +57,7 @@
     outline: none;
     border:1px solid rgb(255, 255, 255);
     border-radius: .5rem;
-    color:rgb(255, 255, 255);
+    color: var(--corFonte);
 
   }
 
@@ -60,7 +68,7 @@
     width:30px;
     left:1rem;
     transform:translateY(-30%);
-    color:white;
+    color: var(--corFonteLogin);
     pointer-events: none;
     padding: 0 .3rem;
     background-color: rgb(92, 114, 173);;
